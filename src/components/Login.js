@@ -39,5 +39,17 @@ const Nav = styled.nav`
   }
 `;
 
+const Join = styled.a`
+  font-size: 16px;
+  padding: 10px, 12px;
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.8);
+  margin-right: 12px;
+  &:hover {
+    background-color: rgba(0, 0, 0, 0.08);
+    color: rgba(0, 0, 0, 0.9);
+    text-decoration: none;
+  }
+`;
 // export it so that we can have access to this outside of this class
 export default Login;
